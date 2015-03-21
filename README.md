@@ -19,6 +19,6 @@ The output file name is `averagesData.txt`.
 
 ## How to run: 
 
-download http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and unzip it. Rename unzipped directory to `data`
+Download data from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and unzip it. Rename unzipped directory to `data`
 
 `run_analysis.R` is ready to run now.
