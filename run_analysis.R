@@ -13,15 +13,15 @@ features <- read.table('data/features.txt')
 activities <- read.table('data/activity_labels.txt')
 
 #Merge it 
-xData = rbind(xTest, xTrain)
-yData = rbind(yTest, yTrain)
+xData <- rbind(xTest, xTrain)
+yData <- rbind(yTest, yTrain)
 subjectData <- rbind(subjectTrain, subjectTest)
 
 # Part 2
 #Extract means and deviations using grep
-meansDeviations = grep("-(mean\\(\\)|std\\(\\))",features[, 2])
+meansDeviations <- grep("-(mean\\(\\)|std\\(\\))",features[, 2])
 # remove values we dont need from xData
-xData = xData[, meansDeviations]
+xData <- xData[, meansDeviations]
 # add column names to xData
 names(xData) <- features[meansDeviations, 2]
 
