@@ -2,7 +2,7 @@ Course Project - Getting and Cleaning Data
 ==========================================
 Here you can find К code and docs for the Course Project for the Data Science's track course "Getting and Cleaning data", which I am taking at coursera.org
 
-The code designed for following dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+The code designed for following dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ## Files
 
@@ -19,6 +19,6 @@ The output file name is `averagesData.txt`.
 
 ## How to run: 
 
-Download data from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and unzip it. Rename unzipped directory to `data`
+Download data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzip it. Rename unzipped directory to `data`
 
 `run_analysis.R` is ready to run now.
